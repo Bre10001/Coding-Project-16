@@ -12,6 +12,7 @@ const App = () => {
     { id: 3, name: "Speaker", price: 199.99, description: "Speakers for sale" },
   ]);
 
+  // Task 7: Pass Data Between Components
   // Function to add a new product
   const addProduct = (newProduct) => {
     setProducts([...products, { ...newProduct, id: products.length + 1 }]);
